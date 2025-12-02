@@ -12,7 +12,7 @@ require_once __DIR__.'/lib/ufo-ajax/ufo.php';
 require_once __DIR__.'/lib/fancy-filter/FancyFilter.php';
 require_once __DIR__.'/lib/wild-file/WildFile.php';
 
-define('ACCEPTMIME',['image/jpeg','application/pdf']);
+define('ACCEPTMIME',['image/jpeg','application/pdf','video/mp4']);
 
 SimpleAuth::configure([
 	'db_host' => DBHOST,
